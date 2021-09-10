@@ -70,7 +70,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
     height: 620px;
 }
 .bb{
-    height: 50%;
+    height: 40%;
     background-color:#ffc300;
     display: flex;
     flex-direction: column;
