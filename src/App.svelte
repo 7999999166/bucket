@@ -52,7 +52,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
 .aaaa{
     display: flex;
     background-color: #001d3d;
-    height: 100px;
+    height: 70px;
     justify-content: center;
 }
 .bbbb{
@@ -98,7 +98,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
 .aaa{
     display: flex;
     background-color: #001d3d;
-    height: 100px;
+    height: 70px;
     justify-content: center;
     justify-content: space-evenly;
 }

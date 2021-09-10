@@ -1,0 +1,6 @@
+{
+	"appId": "com.bucket.app",
+	"appName": "bucket",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

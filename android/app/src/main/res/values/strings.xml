@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">bucket</string>
+    <string name="title_activity_main">bucket</string>
+    <string name="package_name">com.bucket.app</string>
+    <string name="custom_url_scheme">com.bucket.app</string>
+</resources>
