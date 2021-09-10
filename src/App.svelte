@@ -110,7 +110,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
     height: 100px;
 }
 .am{
-  width: 10%;
+  width: 30%;
  
 }
 .zm{
