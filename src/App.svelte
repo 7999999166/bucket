@@ -77,7 +77,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
     justify-content: center;
 }
 .cc{
-    height: 50%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +110,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
     height: 100px;
 }
 .am{
-  width: 30%;
+  width: 25%;
  
 }
 .zm{
