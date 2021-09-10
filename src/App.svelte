@@ -148,11 +148,11 @@ background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 1
    <div class="dd"><h1 class="zm">Thickness (mm)&nbsp; : </h1><input type="number" class="form-control am" bind:value="{dd}"   /></div>
   </div> 
   <div class="cc">
-   <h1 class="xx al">Length of Blank (req.) : {length} inch</h1>
-   <h1 class="xx">Width of Blank  (req.) : {width} inch</h1>
+   <h1 class="xx al">Blank Length (req.) : {length} inch</h1>
+   <h1 class="xx"> Blank Width  (req.) : {width} inch</h1>
    <h1 class="xx">Blank's Base Width   : {widthT} inch</h1>
    <h1 class="xx">Weight of Final Blank : {weight}  Kg</h1>
-   <h1 class="xx">Slant Height of Bucket  : {slant} inch </h1>
+   <h1 class="xx">Bucket Slant Height : {slant} inch </h1>
    <h1 class="xx">Wastage (kg) : {wastagek} </h1>
    <h1 class="xx">Wastage (%) :  {wastagep} </h1>
    <h1 class="xx">Volume (ltr.) :  {volume} </h1>
