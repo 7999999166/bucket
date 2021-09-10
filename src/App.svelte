@@ -39,12 +39,13 @@ function blank(){var iii = aa*.0254 ; var jjj = bb*3.14*.0254 ; var uuu = dd*.00
                  wastagep = 100*(wastagek/ppp) ; wastagep = wastagep.toFixed(2) ;
                      }
 
+function clea(){location.reload();}
+
 function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
                                widthT = cc * 3.14 ; widthT = widthT.toFixed(2) ;
                                weigh();
                                tape(); 
-                               blank();
-                               
+                               blank(); 
                                }
 
 </script>
@@ -161,7 +162,7 @@ background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 1
 </div>
 
 <div class="aaa w3-bottom">
-<button class="btn btn-outline-warning ccc">Clear</button>
+<button class="btn btn-outline-warning ccc" on:click="{clea}">Clear</button>
 <button class="btn btn-outline-warning ccc" on:click="{final}">Calculate</button>
 </div>
 
