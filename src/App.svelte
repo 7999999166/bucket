@@ -35,7 +35,7 @@ function tape(){var gfd = bb*3.14*.0254*1000 ; gfd = gfd.toFixed(2) ; var tey = 
 function blank(){var iii = aa*.0254 ; var jjj = bb*3.14*.0254 ; var uuu = dd*.001; var ppp = iii * jjj * uuu *7930 ; ppp = ppp.toFixed(3);
                 var ra = bb/2 ; var rb = cc/2; var ha = aa*.0254 ; ra = ra*.0254 ; rb = rb * .0254 ; var ta = dd * .001 ;
                  var csa = 3.14 * ha*(ra+rb) ; csa = csa * ta ; csa = csa * 7930 ; csa = csa.toFixed(3) ; 
-                 wastagek = ppp - csa ;
+                 wastagek = ppp - csa ; wastagek = wastagek.toFixed(3) ;
                  wastagep = 100*(wastagek/ppp) ; wastagep = wastagep.toFixed(2) ;
                      }
 
