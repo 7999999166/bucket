@@ -110,8 +110,8 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
     height: 100px;
 }
 .am{
-  width: 30%;
-  margin-left: 20px;
+  width: 10%;
+ 
 }
 .zm{
   font-family: monospace;
