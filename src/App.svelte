@@ -122,8 +122,18 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
 .al{
     margin-top: 70px;
 }
+.main{
+    background: hsla(33, 100%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+}
 </style>
-<div>
+<div class="main">
 <div class="aaaa w3-top">
 <h1 class="bbbb">Bucket App</h1>
 </div>
