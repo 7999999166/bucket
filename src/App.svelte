@@ -70,14 +70,14 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
     height: 620px;
 }
 .bb{
-    height: 40%;
+    height: 50%;
     background-color:#ffc300;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .cc{
-    height: 500px;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,7 @@ function final(){length = aa ; width =  bb * 3.14 ; width = width.toFixed(2);
 .xx{
     color: #ffc300;
     font-family: monospace;
-    margin-top: 1px;
+    margin-top: 5px;
     margin-left:10px ;
     font-size: 1.2rem;
 }
